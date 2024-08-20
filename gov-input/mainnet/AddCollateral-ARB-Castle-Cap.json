@@ -1,0 +1,44 @@
+{
+  "chainid": "42161",
+  "description": "Add ARB-Castle-Capital",
+  "network": "mainnet",
+  "newCollateralAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+  "newCollateralType": "ARB-Castle-Capital",
+  "proposalType": "AddCollateral",
+  "ProtocolToken_Address": "",
+  "ODGovernor_Address": "",
+  "SAFEEngine_Address": "",
+  "OracleRelayer_Address": "",
+  "LiquidationEngine_Address": "",
+  "TaxCollector_Address": "",
+  "GlobalSettlement_Address": "",
+  "Delegatee": "0x5162728cc4D7D111400056925A1b3DF82308bEE0",
+  "CollateralAuctionHouseParams": {
+    "minimumBid": "100000000000000000000",
+    "minDiscount": "1000000000000000000",
+    "maxDiscount": "900000000000000000",
+    "perSecondDiscountUpdateRate": "999985752120000000000000000"
+  },
+  "SAFEEngineCollateralParams": {
+    "collateralDebtCeiling": "5000000000000000000000000000000000000000000000000000",
+    "collateralDebtFloor": "200000000000000000000000000000000000000000000000"
+  },
+  "TaxCollectorCollateralParams": {
+    "stabilityFee": "1000000001547125957863212448"
+  },
+  "LiquidationEngineCollateralParams": {
+    "newCAHChild": "0x5Ff75C273C580114d8915603Be0b7A0Fa2fBf34f",
+    "liquidationPenalty": "1100000000000000000",
+    "liquidationQuantity": "100000000000000000000000000000000000000000000000000"
+  },
+  "OracleRelayerCollateralParams": {
+    "delayedOracle": "0xa4e0410E7eb9a02aa9C0505F629d01890c816A77",
+    "safetyCRatio": "1850000000000000000000000000",
+    "liquidationCRatio": "1750000000000000000000000000"
+  },
+  "TaxReceiver": {
+    "receiver": "0x9C86C719Aa29D426C50Ee3BAEd40008D292b02CF",
+    "canTakeBackTax": true,
+    "taxPercentage": "500000000000000000"
+  }
+}
